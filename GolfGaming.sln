@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolfGaming.BL", "GolfGaming\GolfGaming.BL.csproj", "{5C33F2B4-280C-493E-A4A8-FFBEBBA43D34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4676AC1D-D4DD-411E-BFDA-851108E6CAD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolferTests", "GolferTests\GolferTests.csproj", "{113F62B4-FDBD-48CE-9897-A93E6CB70BB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfGolfer", "WpfGolfer\WpfGolfer.csproj", "{5B8572E2-AA46-4E6D-A902-941015A384AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPGolf", "ASPGolf\ASPGolf.csproj", "{9298B5A6-7DB2-49DC-96C1-06843F561A5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C33F2B4-280C-493E-A4A8-FFBEBBA43D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C33F2B4-280C-493E-A4A8-FFBEBBA43D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C33F2B4-280C-493E-A4A8-FFBEBBA43D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C33F2B4-280C-493E-A4A8-FFBEBBA43D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113F62B4-FDBD-48CE-9897-A93E6CB70BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113F62B4-FDBD-48CE-9897-A93E6CB70BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113F62B4-FDBD-48CE-9897-A93E6CB70BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113F62B4-FDBD-48CE-9897-A93E6CB70BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B8572E2-AA46-4E6D-A902-941015A384AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8572E2-AA46-4E6D-A902-941015A384AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8572E2-AA46-4E6D-A902-941015A384AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8572E2-AA46-4E6D-A902-941015A384AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9298B5A6-7DB2-49DC-96C1-06843F561A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9298B5A6-7DB2-49DC-96C1-06843F561A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9298B5A6-7DB2-49DC-96C1-06843F561A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9298B5A6-7DB2-49DC-96C1-06843F561A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{113F62B4-FDBD-48CE-9897-A93E6CB70BB6} = {4676AC1D-D4DD-411E-BFDA-851108E6CAD6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6EAFCBC-8A12-44BE-89AA-DC7EC5B52291}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mstrolia.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GolfGaming\\GolfGaming.BL.csproj
+		SccProjectName1 = GolfGaming
+		SccLocalPath1 = GolfGaming
+		SccProjectUniqueName2 = GolferTests\\GolferTests.csproj
+		SccProjectTopLevelParentUniqueName2 = GolfGaming.sln
+		SccProjectName2 = GolferTests
+		SccLocalPath2 = GolferTests
+		SccProjectUniqueName3 = WpfGolfer\\WpfGolfer.csproj
+		SccProjectName3 = WpfGolfer
+		SccLocalPath3 = WpfGolfer
+		SccProjectUniqueName4 = ASPGolf\\ASPGolf.csproj
+		SccProjectName4 = ASPGolf
+		SccLocalPath4 = ASPGolf
+	EndGlobalSection
+EndGlobal
